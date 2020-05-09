@@ -55,7 +55,7 @@ import React, { Fragment, useState } from 'react';
 import styled from '@emotion/styled';
 
 **Pueden tener sus estilos**<br />
-const Label = styled.label` <br />
+const Label = styled.label' <br />
     font-family: 'Bebas Neue', cursive;<br />
     color: #FFF;<br />
     text-transform: uppercase;<br />
@@ -63,9 +63,9 @@ const Label = styled.label` <br />
     font-size: 2.4rem;<br />
     margin-top: 2rem;<br />
     display: block;<br />
-`;<br />
+';<br />
 <br />
-const Select = styled.select` <br />
+const Select = styled.select' <br />
     width: 100%;<br />
     display: block;<br />
     padding: 1rem;<br />
@@ -73,7 +73,7 @@ const Select = styled.select` <br />
     border: none;<br />
     border-radius: 10px;<br />
     font-size: 1.2rem; <br />
-`;
+';
 
 **Inicio de la `func` del hook**<br />
 const useMoneda = (label, stateInicial, opciones) => {
