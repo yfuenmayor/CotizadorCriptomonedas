@@ -54,28 +54,28 @@ Para crear los `Custom Hooks` se crea una carpeta dentro de **src** con el nombr
 import React, { Fragment, useState } from 'react';
 import styled from '@emotion/styled';
 
-**Pueden tener sus estilos**
-const Label = styled.label` 
-    font-family: 'Bebas Neue', cursive;
-    color: #FFF;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 2.4rem;
-    margin-top: 2rem;
-    display: block;
+**Pueden tener sus estilos**<br />
+const Label = styled.label` <br />
+    font-family: 'Bebas Neue', cursive;<br />
+    color: #FFF;<br />
+    text-transform: uppercase;<br />
+    font-weight: bold;<br />
+    font-size: 2.4rem;<br />
+    margin-top: 2rem;<br />
+    display: block;<br />
+`;<br />
+<br />
+const Select = styled.select` <br />
+    width: 100%;<br />
+    display: block;<br />
+    padding: 1rem;<br />
+    -webkit-appearance: none;<br />
+    border: none;<br />
+    border-radius: 10px;<br />
+    font-size: 1.2rem; <br />
 `;
 
-const Select = styled.select` 
-    width: 100%;
-    display: block;
-    padding: 1rem;
-    -webkit-appearance: none;
-    border: none;
-    border-radius: 10px;
-    font-size: 1.2rem; 
-`;
-
-**Inicio de la `func` del hook**
+**Inicio de la `func` del hook**<br />
 const useMoneda = (label, stateInicial, opciones) => {
 
     `Creamos el State del hook`
